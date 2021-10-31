@@ -5,7 +5,7 @@ import styles from '../styles/Home.module.css';
 export default function Home() {
   return (
     <Layout pageTitle="Home Page">
-      <h1 className={styles['title-homepage']}>Welcome Asrul K</h1>
+      <h1 className={styles['title-homepage']}>Welcome Asrul Kadir</h1>
       <Image src="/image.jpg" width={200} height={200} alt="electrical" />
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
