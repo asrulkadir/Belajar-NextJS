@@ -1,10 +1,10 @@
-import { useRouter } from 'next/dist/client/router';
+import { useRouter as Router } from 'next/dist/client/router';
 import Layout from '../../components/Layout/Layout';
 import styles from '../../styles/Users.module.css';
 
 export default function index(props) {
   const { dataUsers } = props;
-  const router = useRouter();
+  const router = Router();
   console.log(dataUsers);
 
   return (
